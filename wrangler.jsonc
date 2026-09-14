@@ -1,15 +1,20 @@
-﻿{
-  // 邂｡讌ｽ蝎ｨ蝗ｳ髑托ｼ夐撕逧・し繧､繝医ｒ Cloudflare Workers・域立 Pages・峨〒驟堺ｿ｡縺吶ｋ險ｭ螳・  //   驟堺ｿ｡縺吶ｋ縺ｮ縺ｯ site/ 縺ｮ荳ｭ霄ｫ縺縺代ら函謌舌・ python 繝・・繝ｫ/build.py縲∝・髢九・ python 繝・・繝ｫ/publish.py
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
   "name": "kangakki-zukan",
   "compatibility_date": "2026-09-11",
+  "compatibility_flags": ["nodejs_compat"],
   "assets": {
     "directory": "site",
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/api/*"]
   },
+  "main": "worker/index.js",
   "routes": [
     { "pattern": "kangakki-zukan.com", "custom_domain": true },
     { "pattern": "www.kangakki-zukan.com", "custom_domain": true }
   ],
+  "d1_databases": [
+    { "binding": "DB", "database_name": "kangakki-zukan-contact", "database_id": "266f0a7a-48f0-4e7a-9988-c701b7f53091" }
+  ],
   "observability": { "enabled": true }
 }
-

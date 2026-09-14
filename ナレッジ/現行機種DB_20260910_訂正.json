@@ -1,0 +1,589 @@
+{
+ "meta": {
+  "created": "2026-09-10",
+  "purpose": "検証班（28行突合）で見つかったNG2件・note日付誤り・ヤマハ金管7行のパーサ取りこぼしを、一次ソースを取り直して訂正する。本体JSON（研究班の成果物）は触らず、kangakki_db.load_models() がこのファイルを最後に重ねる。",
+  "rule": "updates の値は一次ソース（メーカー公式の仕様ページ）から転記。null は『上書きしない』ではなく『未記載を確定』の意味では使わない（未記載は文字列 'メーカー未記載' で表す）。source_url は既存に追加する。",
+  "price_revision_note": "price_revision＝メーカーが発表済みの『これから適用される』改定。現在価格は据え置いたまま予定として表示する。改定日を過ぎたら msrp_jpy を新価格に置き換えること（qa_site.py が日付超過を検査する）。"
+ },
+ "updates": [
+  {
+   "brand": "YAMAHA",
+   "model": "YTR-8335WS",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335ws/specs.html",
+   "updates": {
+    "key": "B♭",
+    "bell_material": "イエローブラス/一枚取り",
+    "bell_diameter_raw": "123mm",
+    "bell_diameter_mm": 123,
+    "bore_raw": "ML",
+    "mechanism": "ベルの形状: YTベル",
+    "accessories": [
+     "ケース: TRC-801E",
+     "付属マウスピース: TR-KMV14-GP"
+    ],
+    "note": "仕様ページ（色/仕上げ・機構/構造・音源/音色・材質・付属品の見出し）から転記（2026-09-10 再取得）。概要ページに「2014年秋、特別生産モデルとして発売。2017年春より通常販売」の記載"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTR-8335W",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335ws/index.html",
+   "updates": {
+    "key": "B♭",
+    "bell_material": "イエローブラス/一枚取り",
+    "bell_diameter_raw": "123mm",
+    "bell_diameter_mm": 123,
+    "bore_raw": "ML",
+    "mechanism": "ベルの形状: YTベル",
+    "accessories": [
+     "ケース: TRC-801E",
+     "付属マウスピース: TR-KMV14-GP"
+    ],
+    "note": "YTR-8335WS の製品ページに仕上げ違い（クリアラッカー）として掲載。仕様表は同ページ共通のものを転記（2026-09-10 再取得）。概要欄に「※特別生産品のため、納期として4〜5ヶ月」の記載"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTR-8335WGP",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335ws/index.html",
+   "updates": {
+    "key": "B♭",
+    "bell_material": "イエローブラス/一枚取り",
+    "bell_diameter_raw": "123mm",
+    "bell_diameter_mm": 123,
+    "bore_raw": "ML",
+    "mechanism": "ベルの形状: YTベル",
+    "accessories": [
+     "ケース: TRC-801E",
+     "付属マウスピース: TR-KMV14-GP"
+    ],
+    "msrp_jpy": "時価",
+    "note": "YTR-8335WS の製品ページに仕上げ違い（金メッキ）として掲載。価格は「※時価（お問合せください）」表記。仕様表は同ページ共通のものを転記（2026-09-10 再取得）。「※特別生産品のため、納期として4〜5ヶ月」の記載"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTR-8445WS",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/c_trumpets/ytr-8445ws/specs.html",
+   "updates": {
+    "key": "C",
+    "finish": "銀メッキ",
+    "bell_material": "イエローブラス/一枚取り",
+    "bell_diameter_raw": "123mm",
+    "bell_diameter_mm": 123,
+    "bore_raw": "L",
+    "mechanism": "ベルの形状: YUベル",
+    "accessories": [
+     "ケース: TRC-800E",
+     "付属マウスピース: TR-KMV14-GP"
+    ],
+    "note": "仕様ページから転記（2026-09-10 再取得）。※特別生産品"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YFH-631GS",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/flugelhorns/yfh-631gs/specs.html",
+   "updates": {
+    "key": "B♭",
+    "finish": "銀メッキ",
+    "bell_material": "ゴールドブラス/二枚取り",
+    "bell_diameter_raw": "151.8mm",
+    "bell_diameter_mm": 151.8,
+    "bore_raw": "M",
+    "mechanism": "ベルの形状: FH1ベル/第3トリガー付",
+    "accessories": [
+     "ケース: FHC-8310",
+     "付属マウスピース: FH-11F4"
+    ],
+    "note": "仕様ページから転記（2026-09-10 再取得）"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YFB-621",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/tubas/yfb-621/specs.html",
+   "updates": {
+    "key": "F",
+    "finish": "クリアラッカー",
+    "bell_material": "イエローブラス",
+    "bell_diameter_raw": "366mm",
+    "bell_diameter_mm": 366,
+    "bore_raw": "17.5mm（第1〜第3）/18.5mm（第4）",
+    "height_mm_raw": "825mm",
+    "mechanism": "バルブシステム: 4ピストン（フロントアクション）+1ロータリー（右手）",
+    "accessories": [
+     "付属マウスピース: BB-67B4"
+    ],
+    "note": "仕様ページから転記（2026-09-10 再取得）。ケースの記載は仕様ページになし。※特別生産品のため、納期として4〜5ヶ月"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YFB-822S",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/tubas/yfb-822s/specs.html",
+   "updates": {
+    "key": "F",
+    "finish": "銀メッキ",
+    "bell_material": "イエローブラス",
+    "bell_diameter_raw": "446mm",
+    "bell_diameter_mm": 446,
+    "bore_raw": "19.5mm",
+    "height_mm_raw": "874mm",
+    "mechanism": "バルブシステム: 4ピストン（フロントアクション）+1ロータリー（右手）",
+    "accessories": [
+     "付属マウスピース: BB-67B4"
+    ],
+    "note": "仕様ページから転記（2026-09-10 再取得）。ケースの記載は仕様ページになし。※特別生産品のため、納期として4〜5ヶ月"
+   }
+  },
+  {
+   "brand": "J.Michael",
+   "model": "FL-300S",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://maccorp.co.jp/jm/detail/flute/fl300s.html",
+   "updates": {
+    "accessories": [
+     "フルート本体",
+     "セミハードケース",
+     "クリーニングロッド（掃除棒）",
+     "ガーゼ",
+     "クリーニングクロス",
+     "取扱説明書",
+     "運指表",
+     "保証書",
+     "メーカー3年サポート「お客様カード」"
+    ],
+    "note": "発売元（マックコーポレーション）製品ページの「付属品」欄から転記（2026-09-10 再取得）。仕様表の「セット内容」は「セミハードケース、付属品」とのみ記載"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-82ZG",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/saxophones/yas-82z/index.html",
+   "updates": {
+    "note_append": "2025年10月1日 改定（製品ページの希望小売価格に「2025年10月1日価格更新」の表記・2026-09-10 確認）"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-875EXG",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/saxophones/yas-875ex_02/index.html",
+   "updates": {
+    "note_append": "2025年10月1日 改定（製品ページの希望小売価格に「2025年10月1日価格更新」の表記・2026-09-10 確認）"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-875G",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/saxophones/yas-875_02/index.html",
+   "updates": {
+    "note_append": "2025年10月1日 改定（製品ページの希望小売価格に「2025年10月1日価格更新」の表記・2026-09-10 確認）"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "RX TENOR UL",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "RX RED BRASS UL",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "RX RED BRASS GL",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "GX PRO HG",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "GX PRO GL",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "GX PRO TENOR BLACK",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "Forestone",
+   "model": "COLORS VINTAGE SILVER",
+   "instrument": "tenor_saxophone",
+   "fetched_at": "2026-09-13",
+   "updates": {
+    "body_material": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "finish": "—（発売元ページ本文の表記が型番名と一致せず、当サイトでは未確定）",
+    "note_append": "当サイト注：発売元ページ本文の材質・仕上げの表記が型番名と合わないため（別商品の説明文と同じ内容が入っている）、この2項目は値として出していません。2026-09-13 確認"
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YSS-82ZG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2365000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YSS-82ZRG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2376000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YSS-875EXG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2486000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YSS-875EXHGG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2508000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-82ZG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2695000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-875G",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2849000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YAS-875EXG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 2849000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTS-82ZG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 3443000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTS-875G",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 3575000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YTS-875EXG",
+   "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+   "updates": {
+    "price_revision": {
+     "date": "2026-10-01",
+     "msrp_jpy": 3575000,
+     "announced": "2026-07-17",
+     "source_url": "https://jp.yamaha.com/news_events/2026/winds/winds_price.html",
+     "pdf_url": "https://jp.yamaha.com/files/wind-instruments_saxophones_price_202610__2b01752e687e7fc0eb49733dfb34e815.pdf",
+     "checked": "2026-09-14"
+    }
+   }
+  },
+  {
+   "brand": "YAMAHA",
+   "model": "YCL-631",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/clarinets/ycl-631_03/index.html",
+   "updates": {
+    "instrument": "alto_clarinet",
+    "instrument_jp": "クラリネット アルトクラリネット",
+    "note_append": "製品ページの製品名表記は「YCL-631 Alto Clarinet」。ヤマハ公式の製品一覧でもE♭クラリネットとは別の「アルトクラリネット」区分にある（2026-09-15 当チーム確認）。本体DBのE♭分類を訂正"
+   }
+  }
+ ],
+ "additions_comment": "研究班のDBに無かった型番を、当チームが公式ページから追加した行（本体JSONは書き換えない）",
+ "additions": [
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335S",
+   "model_label": "YTR-8335S",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "イエローブラス/一枚取り",
+   "finish": "銀メッキ",
+   "msrp_jpy": 495000,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335 の製品ページに併記（希望小売価格 495,000円税込・「イエローブラスベル」「銀メッキ仕上げ」）。研究班のDBに無かった派生を当チームが公式ページから追加。ボア・付属品は同ページの概要欄に記載なし"
+  },
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335G",
+   "model_label": "YTR-8335G",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "ゴールドブラス",
+   "finish": "クリアラッカー",
+   "msrp_jpy": 473000,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335 の製品ページに併記（希望小売価格 473,000円税込・「ゴールドブラスを素材としたベル」「クリアラッカー」）。当チームが公式ページから追加。ボア・付属品は概要欄に記載なし"
+  },
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335GS",
+   "model_label": "YTR-8335GS",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "ゴールドブラス",
+   "finish": "銀メッキ",
+   "msrp_jpy": 500500,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335 の製品ページに併記（希望小売価格 500,500円税込・「ゴールドブラスベルを銀メッキで仕上げ」）。当チームが公式ページから追加。ボア・付属品は概要欄に記載なし"
+  },
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335R",
+   "model_label": "YTR-8335R",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "イエローブラス/一枚取り",
+   "finish": "クリアラッカー",
+   "mechanism": "その他: リバース式主管抜差",
+   "msrp_jpy": 478500,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335rs/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335RS の製品ページに併記（希望小売価格 478,500円税込・「ベル：イエローブラス一枚取り、仕上げ：クリアラッカー」）。※特別生産品のため、納期として4〜5ヶ月。当チームが公式ページから追加"
+  },
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335RG",
+   "model_label": "YTR-8335RG",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "ゴールドブラス/一枚取り",
+   "finish": "クリアラッカー",
+   "mechanism": "その他: リバース式主管抜差",
+   "msrp_jpy": 484000,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335rs/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335RS の製品ページに併記（希望小売価格 484,000円税込・「ベル：ゴールドブラス一枚取り、仕上げ：クリアラッカー」）。※特別生産品のため、納期として4〜5ヶ月。当チームが公式ページから追加"
+  },
+  {
+   "maker": "ヤマハ株式会社",
+   "brand": "YAMAHA",
+   "instrument": "bb_trumpet",
+   "instrument_jp": "トランペット B♭ トランペット",
+   "model": "YTR-8335RGS",
+   "model_label": "YTR-8335RGS",
+   "series": "Xeno",
+   "status": "current",
+   "key": "B♭",
+   "bell_material": "ゴールドブラス/一枚取り",
+   "finish": "銀メッキ",
+   "mechanism": "その他: リバース式主管抜差",
+   "msrp_jpy": 511500,
+   "pdf_urls": [],
+   "distributor_jp": "株式会社ヤマハミュージックジャパン",
+   "source_url": "https://jp.yamaha.com/products/musical_instruments/winds/trumpets/bb_trumpets/ytr-8335rs/index.html",
+   "source_type": "maker_official",
+   "fetched_at": "2026-09-10",
+   "note": "YTR-8335RS の製品ページに併記（希望小売価格 511,500円税込・「ベル：ゴールドブラス一枚取り、仕上げ：銀メッキ」）。※特別生産品のため、納期として4〜5ヶ月。当チームが公式ページから追加"
+  }
+ ],
+ "rules": [
+  {
+   "brand": "J.Michael",
+   "model_regex": "^AL-500$",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://maccorp.co.jp/jm/detail/saxophone/al500.html",
+   "updates": {
+    "neck_spec": "専用ネック〔メーカー表記「初心者向け設計」〕"
+   },
+   "reason": "研究班の転記「専用ネック（初心者向け設計）」は地の文の断定に読めるため、発売元の表現の引用形に直す（監査 2026-09-10）"
+  },
+  {
+   "brand": "Cannonball",
+   "model_regex": "^(A4|T4)(-|$)",
+   "fetched_at": "2026-09-10",
+   "source_url": "https://www.importwind.com/pricelist/index.html",
+   "updates": {
+    "series": "BIG BELL STONE “4” SERIES"
+   },
+   "reason": "プライスリストの見出しは A5/T5/B5/S5 系が「BIG BELL STONE SERIES」、A4/T4 系が「BIG BELL STONE “4” SERIES」で別区分（ファクトチェック 2026-09-10 で発見・当日再取得で確認）"
+  }
+ ],
+ "note_fixes": {
+  "comment": "JUPITER の note にある『2026年8月20日現在価格』『2026年9月1日現在価格』は研究班がカタログを見た日で、価格の改定日ではない。検証班（2026-09-10）が突合した2行では代理店カタログPDFの価格基準日は 2025-01-10 だった。全50行を同じPDFと断定できないため、表示側では note の『20xx年x月x日現在価格』を改定日として扱わず（strip_note_date_brands）、改定日は『カタログに未記載』として当サイトの確認日だけを出す。",
+  "strip_note_date_brands": [
+   "JUPITER"
+  ],
+  "verified_only": {
+   "JUPITER": "検証班が2行で確認した価格基準日 2025-01-10（全行には適用しない）"
+  }
+ }
+}

@@ -1,0 +1,15 @@
+﻿{
+  // 邂｡讌ｽ蝎ｨ蝗ｳ髑托ｼ夐撕逧・し繧､繝医ｒ Cloudflare Workers・域立 Pages・峨〒驟堺ｿ｡縺吶ｋ險ｭ螳・  //   驟堺ｿ｡縺吶ｋ縺ｮ縺ｯ site/ 縺ｮ荳ｭ霄ｫ縺縺代ら函謌舌・ python 繝・・繝ｫ/build.py縲∝・髢九・ python 繝・・繝ｫ/publish.py
+  "name": "kangakki-zukan",
+  "compatibility_date": "2026-09-11",
+  "assets": {
+    "directory": "site",
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "kangakki-zukan.com", "custom_domain": true },
+    { "pattern": "www.kangakki-zukan.com", "custom_domain": true }
+  ],
+  "observability": { "enabled": true }
+}
+

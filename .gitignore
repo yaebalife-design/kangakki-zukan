@@ -1,3 +1,5 @@
+# 🔴 このリポジトリは GitHub Public（Cloudflare Pages の配信元）。
+#    公開してよいのは site/ の中身だけ。生成ツール・DB・社内資料は絶対に入れない。
 __pycache__/
 *.pyc
 .env
@@ -5,3 +7,9 @@ __pycache__/
 *.pem
 *.key
 node_modules/
+
+# 社内のもの（公開しない）
+/ツール/
+/ナレッジ/
+/社長室/
+/CLAUDE.md

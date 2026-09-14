@@ -3,6 +3,7 @@
   <url><loc>https://kangakki-zukan.com/</loc><priority>1.0</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/kangakki-nedan-souba</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/articles/selmer-lineup</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-alto-sax-lineup</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-clarinet-lineup</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-flute-lineup</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -209,8 +210,7 @@
   <url><loc>https://kangakki-zukan.com/compare/selmer-bb-brushed-satin-gold-lacquered-a239eb--selmer-bb-silver-plated-4e548b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/selmer-bb-dark-gold-lacquered-a24aa7--selmer-bb-antique-brushed-satin-1bd78c</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/selmer-bb-dark-signature-lacquered-11d64b--selmer-bb-antique-lacquered-03fcd7</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/selmer-bb-gold-lacquered-52a9d0--selmer-bb-gold-lacquered-gp-170321</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/selmer-bb-gold-lacquered-gp-170321--selmer-bb-dark-signature-lacquered-11d64b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/selmer-bb-gold-lacquered-52a9d0--selmer-bb-dark-signature-lacquered-11d64b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/selmer-bb-silver-plated-4e548b--selmer-bb-matte-black-lacquered-2025-limited-edition-300-cb8b86</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/selmer-bb-silver-plated-5fc2f1--selmer-bb-dark-gold-lacquered-a24aa7</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/selmer-eb-antique-brushed-satin-6e1cb0--selmer-eb-black-lacquered-d78646</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -412,20 +412,19 @@
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-455g--yamaha-ysl-350c</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-456g--yamaha-ysl-620</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-620--yamaha-ysl-640</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-630--yamaha-ysl-820gii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-640--yamaha-ysl-882ii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-820gii--yamaha-ysl-871</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-823g--yamaha-ysl-823gd</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-823gd--yamaha-ysl-825</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-630--yamaha-ysl-891z</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-640--yamaha-ysl-820gii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-820gii--yamaha-ysl-882ii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-823g--yamaha-ysl-882gii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-823gd--yamaha-ysl-882orii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-825--yamaha-ysl-825g</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-871--yamaha-ysl-891z</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-872--yamaha-ysl-823g</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-871--yamaha-ysl-872</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-881--yamaha-ysl-895en</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-881g--yamaha-ysl-872</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882gii--yamaha-ysl-882goii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882goii--yamaha-ysl-882orii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882goii--yamaha-ysl-823gd</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882gorii--yamaha-ysl-825</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882ii--yamaha-ysl-882oii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882odii--yamaha-ysl-882gii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882odii--yamaha-ysl-823g</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882oii--yamaha-ysl-882odii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-882orii--yamaha-ysl-882gorii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-891z--yamaha-ysl-897z</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -970,7 +969,6 @@
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-dark-gold-lacquered-a24aa7</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-dark-signature-lacquered-11d64b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-gold-lacquered-52a9d0</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/models/selmer-bb-gold-lacquered-gp-170321</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-gold-plated-1de633</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-gold-plated-4f63fa</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/selmer-bb-matte-black-lacquered-2025-limited-edition-300-cb8b86</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>

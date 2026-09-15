@@ -6,7 +6,10 @@
   --wash:#F3EFE6; --na:#6B6258; --ok:#1E6B3A; --ng:#9B2C2C;
   --rkt:#B4433E; --amz:#8F5F22; --yh:#4A1E8A; --shop:#3B5D8A; --kaitori:#2D6B5E;
   --serif:"Shippori Mincho B1","Yu Mincho","Hiragino Mincho ProN",serif;
-  --sans:"Zen Kaku Gothic New","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;
+  /* 🔴 本文は素直な書体にする。「Zen Kaku Gothic New」は丸みのある表示用書体で、
+     16px・行間1.8 の長文だと読みづらい（社長指摘 2026-09-15「文字が若干キモイ」）。
+     Gin-DB と同じく OS標準のゴシックを先に置く。見出しの明朝はそのまま（図鑑らしさ）。 */
+  --sans:"Inter","Noto Sans JP",-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic UI","Yu Gothic","Meiryo",sans-serif;
 }
 @media (prefers-reduced-motion: reduce){ *{transition:none!important} }
 *{box-sizing:border-box}
@@ -318,6 +321,15 @@ nav.toc a{color:var(--ink); text-decoration:none; border-bottom:1px dotted var(-
 .minitbl thead th{width:auto}
 .minitbl td .src{display:block; font-size:12.5px; color:var(--ink-soft); margin-top:2px}
 .minitbl td.n{text-align:right; white-space:nowrap}
+/* 🔴 数値が並ぶ表（.keep＝スマホでも表のまま出すもの）の列幅（社長指摘 2026-09-15「サイズ感がおかしい」）。
+   行見出しを 11em で固定すると「サックス（463型番）」が折り返し、余った幅を数値列が山分けして
+   数字どうしが離れてしまう。数値列を中身の幅に縮め、余りは行見出しに回す。 */
+/* 行見出しが広がると、見出し色の面が大きくなって重い。数値表では地の色に戻す（ヘッダ行だけ色を残す） */
+.minitbl.keep th[scope="row"]{width:auto; min-width:9em; background:var(--card); color:var(--ink); font-weight:600; font-size:13.5px}
+.minitbl.keep td.n,.minitbl.keep thead th+th{width:1%; white-space:nowrap}
+.minitbl.keep thead th+th{text-align:right}
+.minitbl.keep th,.minitbl.keep td{vertical-align:middle; font-variant-numeric:tabular-nums}
+.minitbl.keep tbody tr:hover th,.minitbl.keep tbody tr:hover td{background:var(--wash)}
 .tblcard{position:relative; border-radius:10px; overflow-x:auto; border:1px solid var(--line); margin:14px 0 6px; -webkit-overflow-scrolling:touch}
 @media(max-width:560px){
   .minitbl:not(.keep) ,.minitbl:not(.keep) tbody,.minitbl:not(.keep) tr,.minitbl:not(.keep) th,.minitbl:not(.keep) td{display:block; width:auto}

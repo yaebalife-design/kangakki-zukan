@@ -46,9 +46,9 @@ nav.tabs a:hover{color:var(--brass)}
   .site-inner{padding:6px 14px; gap:8px}
   .logo .l1,.logo .sub{display:none}
   .logo .l2{font-size:18px; white-space:nowrap}
-  nav.tabs{width:100%; margin-left:0; gap:2px; flex-wrap:nowrap; overflow-x:auto; -webkit-overflow-scrolling:touch; padding-right:22px;
-    -webkit-mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent); mask-image:linear-gradient(90deg,#000 calc(100% - 26px),transparent)}
-  nav.tabs a{padding:8px 10px; font-size:12.5px}
+  /* 🔴 7タブを横スクロールにすると5つ目から先に気づかない（レビュー 2026-09-16）。折り返して全部見せる */
+  nav.tabs{width:100%; margin-left:0; gap:2px 4px; flex-wrap:wrap; overflow:visible; padding-right:0}
+  nav.tabs a{padding:7px 9px; font-size:12.5px; min-height:38px}
 }
 main{max-width:1180px; margin:0 auto; padding:0 20px 48px}
 .measure{max-width:760px; margin-left:auto; margin-right:auto}

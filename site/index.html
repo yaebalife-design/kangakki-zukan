@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@600;700&family=Inter:wght@400;500;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=c3f2e16b5e">
+<link rel="stylesheet" href="assets/style.css?v=13a64b4f88">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="canonical" href="https://kangakki-zukan.com/">
@@ -47,8 +47,8 @@
     <nav class="tabs" aria-label="メインメニュー">
       <a href="index.html" aria-current="page">型番を探す</a>
       <a href="articles/index.html">記事</a>
-      <a href="compare/index.html">型番の違い</a>
-      <a href="instruments/index.html">楽器種・相場</a>
+      <a href="compare/index.html">2機種の違い</a>
+      <a href="instruments/index.html">楽器から探す</a>
       <a href="brands.html">ブランド</a>
       <a href="models/index.html">全機種一覧</a>
       <a href="about.html">サイトについて</a>
@@ -120,13 +120,16 @@
   <h2 id="basics"><span class="secno">01</span>まず読む：管楽器の基礎知識<small>（読む順に並べています）</small></h2>
   <div class="newlist">
     <a class="newcard" href="articles/kataban-yomikata.html">
-      <span class="name">【基礎】管楽器の型番の読み方 - YAS-280の4つの部分</span>
+      <span class="name">管楽器の型番の読み方 - YAS-280の4つの部分</span>
+    </a>
+    <a class="newcard" href="articles/kangakki-nedan-souba.html">
+      <span class="name">管楽器の値段の相場 - 楽器別に定価の幅を見る</span>
     </a>
     <a class="newcard" href="articles/kangakki-naze-takai.html">
       <span class="name">管楽器はなぜ高いのか - 定価の中身を885型番で分解</span>
     </a>
     <a class="newcard" href="articles/kau-mae-ni-kimeru.html">
-      <span class="name">【基礎】管楽器を買う前に決める3つ - 定価・付属品・保証</span>
+      <span class="name">管楽器を買う前に決める3つ - 定価・付属品・保証</span>
     </a>
     <a class="newcard" href="articles/chuko-genko-kakunin.html">
       <span class="name">中古で探している型番、いま新品で買えますか - 現行かどうかの調べ方</span>
@@ -137,7 +140,7 @@
   <ol class="steps3">
     <li><b>楽器を選ぶ</b><span>13楽器種から。楽器種ごとに全ブランドの現行型番と定価の分布が見られます。<a href="instruments/index.html">楽器種別の一覧 →</a></span></li>
     <li><b>予算の帯で絞る</b><span>下のカタログで「税込希望小売価格の帯」を選ぶと、その予算に入る型番だけになります。<a href="#db">カタログで絞る →</a></span></li>
-    <li><b>1つ上のグレードと何が違うか見る</b><span>定価が隣り合う2型番の違いを、メーカー公表値の違う行だけで。<a href="compare/index.html">型番ペアの違い →</a></span></li>
+    <li><b>1つ上のグレードと何が違うか見る</b><span>定価が隣り合う2型番の違いを、メーカー公表値の違う行だけで。<a href="compare/index.html">2機種の違い →</a></span></li>
   </ol>
   <details class="help gloss"><summary>用語の意味（税込希望小売価格・改定日・調子・仕上げ・シリーズ・現行／生産終了）</summary>
   <dl>
@@ -230,7 +233,7 @@
     <div class="fitq">
       <div class="fld"><label for="f-group">楽器</label><select id="f-group"><option value="">すべて</option><option value="saxophone">サックス（463）</option><option value="flute">フルート・ピッコロ（119）</option><option value="clarinet">クラリネット（40）</option><option value="oboe">オーボエ（8）</option><option value="bassoon">ファゴット（4）</option><option value="trumpet">トランペット（113）</option><option value="cornet">コルネット（18）</option><option value="flugelhorn">フリューゲルホルン（11）</option><option value="horn">ホルン（18）</option><option value="trombone">トロンボーン（52）</option><option value="euphonium">ユーフォニアム（10）</option><option value="baritone">バリトン・アルトホルン（7）</option><option value="tuba">チューバ（22）</option></select></div>
       <div class="fld"><label for="f-instrument">楽器種をさらに絞る</label><select id="f-instrument"><option value="">すべて</option><option value="sopranino_saxophone" data-group="saxophone">ソプラニーノサックス（5）</option><option value="eb_sopranino_saxophone" data-group="saxophone">ソプラニーノサックス（2）</option><option value="soprano_saxophone" data-group="saxophone">ソプラノサックス（115）</option><option value="curved_soprano_saxophone" data-group="saxophone">カーブドソプラノサックス（13）</option><option value="alto_saxophone" data-group="saxophone">アルトサックス（152）</option><option value="tenor_saxophone" data-group="saxophone">テナーサックス（125）</option><option value="c_melody_saxophone" data-group="saxophone">Cメロディサックス（1）</option><option value="baritone_saxophone" data-group="saxophone">バリトンサックス（47）</option><option value="bass_saxophone" data-group="saxophone">バスサックス（3）</option><option value="piccolo" data-group="flute">ピッコロ（10）</option><option value="flute" data-group="flute">フルート（100）</option><option value="alto_flute" data-group="flute">アルトフルート（6）</option><option value="bass_flute" data-group="flute">バスフルート（3）</option><option value="bb_clarinet" data-group="clarinet">B♭クラリネット（22）</option><option value="a_clarinet" data-group="clarinet">Aクラリネット（9）</option><option value="eb_clarinet" data-group="clarinet">E♭クラリネット（2）</option><option value="alto_clarinet" data-group="clarinet">アルトクラリネット（1）</option><option value="bass_clarinet" data-group="clarinet">バスクラリネット（6）</option><option value="oboe" data-group="oboe">オーボエ（8）</option><option value="bassoon" data-group="bassoon">ファゴット（4）</option><option value="bb_trumpet" data-group="trumpet">B♭トランペット（83）</option><option value="c_trumpet" data-group="trumpet">Cトランペット（11）</option><option value="eb_d_trumpet" data-group="trumpet">E♭/Dトランペット（4）</option><option value="piccolo_trumpet" data-group="trumpet">ピッコロトランペット（4）</option><option value="rotary_trumpet" data-group="trumpet">ロータリートランペット（4）</option><option value="herald_trumpet" data-group="trumpet">ファンファーレトランペット（2）</option><option value="bb_pocket_trumpet" data-group="trumpet">ポケットトランペット（3）</option><option value="trumpet_gf_category" data-group="trumpet">G/Fトランペット（1）</option><option value="bugle" data-group="trumpet">ビューグル（1）</option><option value="cornet" data-group="cornet">コルネット（12）</option><option value="bb_cornet" data-group="cornet">B♭コルネット（6）</option><option value="flugelhorn" data-group="flugelhorn">フリューゲルホルン（7）</option><option value="bb_flugelhorn" data-group="flugelhorn">B♭フリューゲルホルン（4）</option><option value="french_horn" data-group="horn">ホルン（18）</option><option value="tenor_trombone" data-group="trombone">テナートロンボーン（13）</option><option value="tenor_bass_trombone" data-group="trombone">テナーバストロンボーン（24）</option><option value="bass_trombone" data-group="trombone">バストロンボーン（11）</option><option value="valve_trombone" data-group="trombone">バルブトロンボーン（2）</option><option value="alto_trombone" data-group="trombone">アルトトロンボーン（2）</option><option value="euphonium" data-group="euphonium">ユーフォニアム（10）</option><option value="baritone_horn" data-group="baritone">バリトン（4）</option><option value="alto_horn" data-group="baritone">アルトホルン（3）</option><option value="tuba" data-group="tuba">チューバ（22）</option></select></div>
-      <div class="fld"><label for="f-brand">ブランド</label><select id="f-brand"><option value="">すべて</option><option value="yamaha">ヤマハ（377）</option><option value="selmer">セルマー・パリ（59）</option><option value="yanagisawa">ヤナギサワ（61）</option><option value="cannonball">キャノンボール（60）</option><option value="jupiter">ジュピター（50）</option><option value="antigua">アンティグア（37）</option><option value="bach">バック（32）</option><option value="chateau">シャトー（40）</option><option value="jmichael">Jマイケル（29）</option><option value="forestone">フォレストーン（29）</option><option value="pmauriat">P.モーリア（26）</option><option value="rampone">ランポーネ＆カッツァーニ（24）</option><option value="kaerntner">ケルントナー（20）</option><option value="playtech">プレイテック（15）</option><option value="buffet">ビュッフェ・クランポン（9）</option><option value="festi">フェスティ（7）</option><option value="soleil">ソレイユ（4）</option><option value="marcato">マルカート（4）</option><option value="eastman">イーストマン（2）</option></select></div>
+      <div class="fld"><label for="f-brand">ブランド</label><select id="f-brand"><option value="">すべて</option><option value="yamaha">ヤマハ（377）</option><option value="selmer">セルマー・パリ（59）</option><option value="yanagisawa">ヤナギサワ（61）</option><option value="cannonball">キャノンボール（60）</option><option value="jupiter">ジュピター（50）</option><option value="antigua">アンティグア（37）</option><option value="bach">バック（32）</option><option value="chateau">シャトー（40）</option><option value="jmichael">Jマイケル（29）</option><option value="forestone">フォレストーン（29）</option><option value="pmauriat">P.モーリア（26）</option><option value="rampone">ランポーネ＆カッツァーニ（24）</option><option value="kaerntner">ケルントナー（20）</option><option value="playtech">プレイテック（15）</option><option value="buffet">ビュッフェ・クランポン（9）</option><option value="festi">フェスティ（7）</option><option value="marcato">マルカート（4）</option><option value="soleil">ソレイユ（4）</option><option value="eastman">イーストマン（2）</option></select></div>
       <div class="fld"><label for="f-band">税込希望小売価格の帯</label><select id="f-band"><option value="">すべて</option><option value="b1">〜5万円（7）</option><option value="b2">5〜10万円（20）</option><option value="b3">10〜20万円（60）</option><option value="b4">20〜40万円（118）</option><option value="b5">40〜70万円（241）</option><option value="b6">70万円〜（302）</option><option value="none">オープン価格・時価・未記載（137）</option></select></div>
       <div class="fld chk"><label for="f-current"><input type="checkbox" id="f-current" checked> 現行型番だけ<small>（外すと生産終了・在庫限り56型番も表示）</small></label></div>
     </div>
@@ -310,17 +313,20 @@
 
   <h2 id="articles"><span class="secno">07</span>記事<small>（19本）</small></h2>
     <nav class="idx-tabs" id="categories" aria-label="記事のカテゴリ">
-      <a href="category/basics.html">まず読む：管楽器の基礎知識<i>4</i></a>
+      <a href="category/basics.html">まず読む：管楽器の基礎知識<i>5</i></a>
       <a href="category/pair.html">どっちを買う？ 2機種の違い<i>5</i></a>
       <a href="category/lineup.html">メーカー別の全機種と定価<i>9</i></a>
-      <a href="category/price.html">値段の相場を知る<i>1</i></a>
     </nav>
   <section class="catsec" id="cat-basics">
-    <h3>まず読む：管楽器の基礎知識<small>（4本）</small></h3>
+    <h3>まず読む：管楽器の基礎知識<small>（5本）</small></h3>
     <div class="newlist">
     <a class="newcard" href="articles/kataban-yomikata.html">
       <span class="cat">まず読む：管楽器の基礎知識</span>
-      <span class="name">【基礎】管楽器の型番の読み方 - YAS-280の4つの部分</span>
+      <span class="name">管楽器の型番の読み方 - YAS-280の4つの部分</span>
+    </a>
+    <a class="newcard" href="articles/kangakki-nedan-souba.html">
+      <span class="cat">まず読む：管楽器の基礎知識</span>
+      <span class="name">管楽器の値段の相場 - 楽器別に定価の幅を見る</span>
     </a>
     <a class="newcard" href="articles/kangakki-naze-takai.html">
       <span class="cat">まず読む：管楽器の基礎知識</span>
@@ -328,7 +334,7 @@
     </a>
     <a class="newcard" href="articles/kau-mae-ni-kimeru.html">
       <span class="cat">まず読む：管楽器の基礎知識</span>
-      <span class="name">【基礎】管楽器を買う前に決める3つ - 定価・付属品・保証</span>
+      <span class="name">管楽器を買う前に決める3つ - 定価・付属品・保証</span>
     </a>
     <a class="newcard" href="articles/chuko-genko-kakunin.html">
       <span class="cat">まず読む：管楽器の基礎知識</span>
@@ -399,15 +405,6 @@
     <a class="newcard" href="articles/yamaha-alto-sax-lineup.html">
       <span class="cat">メーカー別の全機種と定価</span>
       <span class="name">ヤマハ アルトサックス 全型番の定価一覧</span>
-    </a>
-    </div>
-  </section>
-  <section class="catsec" id="cat-price">
-    <h3>値段の相場を知る<small>（1本）</small></h3>
-    <div class="newlist">
-    <a class="newcard" href="articles/kangakki-nedan-souba.html">
-      <span class="cat">値段の相場を知る</span>
-      <span class="name">管楽器の値段の相場 - 楽器別に定価の幅を見る</span>
     </a>
     </div>
   </section>
@@ -602,8 +599,8 @@
 </main>
 <footer class="site">
   <div class="foot-inner">
-    <div class="foot-nav"><b>記事</b> <a href="category/basics.html">まず読む：管楽器の基礎知識</a> <a href="category/pair.html">どっちを買う？ 2機種の違い</a> <a href="category/lineup.html">メーカー別の全機種と定価</a> <a href="category/price.html">値段の相場を知る</a></div>
-    <div class="foot-nav"><b>データ</b> <a href="index.html">型番を探す</a> <a href="compare/index.html">型番ペアの違い</a> <a href="instruments/index.html">楽器種別の一覧</a> <a href="brands.html">ブランド一覧</a> <a href="models/index.html">全機種の一覧</a> <a href="data.html">データの作り方・出典方針</a></div>
+    <div class="foot-nav"><b>記事</b> <a href="category/basics.html">まず読む：管楽器の基礎知識</a> <a href="category/pair.html">どっちを買う？ 2機種の違い</a> <a href="category/lineup.html">メーカー別の全機種と定価</a></div>
+    <div class="foot-nav"><b>データ</b> <a href="index.html">型番を探す</a> <a href="compare/index.html">2機種の違い</a> <a href="instruments/index.html">楽器から探す</a> <a href="brands.html">ブランド</a> <a href="models/index.html">全機種一覧</a> <a href="data.html">データの作り方・出典方針</a></div>
     <span class="pr">【PR】当サイトはアフィリエイト広告（楽天市場・Yahoo!ショッピング・楽器店・買取サービス）を掲載しています。</span><br>
     当サイトは各メーカー・楽器店・買取業者とは無関係の情報サイトです。当サイト自身は楽器の販売・買取・修理を行っていません。仕様・価格は各社の公式ページ・カタログ（出典欄）に基づきます。楽器は個体差があり、購入前の試奏を各メーカー・楽器店が推奨しています。<br>
     価格はメーカーが公表している税込希望小売価格です（改定日・出典を併記）。「時価」「オープン価格」はメーカーの表記のままです。実際の販売価格は店ごとに異なります。<br>

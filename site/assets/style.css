@@ -215,6 +215,8 @@ figure.ladderfig svg{max-width:none; width:100%}
 /* ══ カード型カタログ ══ */
 .catalog{display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:14px; margin:14px 0 6px}
 .catalog .mcard{content-visibility:auto; contain-intrinsic-size:auto 360px}
+/* 748点の散布図はスマホ幅では点が粒になって読めない（レビュー 2026-09-16）。楽器種ごとの相場（下）だけ出す */
+@media(max-width:700px){ .viz-dark{display:none} }
 .mcard{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px 14px; display:flex; flex-direction:column; gap:8px; box-shadow:0 1px 2px rgba(92,58,12,.05); transition:box-shadow .15s, border-color .15s}
 .mcard:hover{border-color:#D6BE8E; box-shadow:0 6px 18px rgba(92,58,12,.10)}
 .mcard,.mcard > *,.mc-nums,.mc-nums .num{min-width:0}

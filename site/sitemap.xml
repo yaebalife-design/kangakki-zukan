@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kangakki-zukan.com/</loc><priority>1.0</priority><lastmod>2026-09-15</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/</loc><priority>1.0</priority><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/chuko-genko-kakunin</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/kangakki-naze-takai</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
@@ -11,6 +11,7 @@
   <url><loc>https://kangakki-zukan.com/articles/yamaha-alto-sax-lineup</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-clarinet-lineup</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-flute-lineup</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/articles/yamaha-recorder-lineup</loc><priority>0.8</priority><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-tenor-sax-lineup</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-trombone-lineup</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yamaha-trumpet-lineup</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -19,6 +20,7 @@
   <url><loc>https://kangakki-zukan.com/articles/yas-480-yas-62</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yas-82z-variants</loc><priority>0.8</priority><lastmod>2026-09-15</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/ycl-450-ycl-650</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/articles/yds-150-koukei</loc><priority>0.8</priority><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/ytr-8335-variants</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/articles/yts-380-yts-480</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -427,6 +429,53 @@
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ypc-82--yamaha-ypc-87</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ypc-87--yamaha-ypc-91</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ypc-91--yamaha-ypc-92</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-28biii--yamaha-yra-38biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-302biii--yamaha-yra-48b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-322b--yamaha-yra-324b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-324b--yamaha-yra-61</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-38biii--yamaha-yra-302biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-402b--yamaha-yra-322b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-48b--yamaha-yra-402b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-61--yamaha-yra-900l</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-64--yamaha-yra-801</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-801--yamaha-yra-811</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-802--yamaha-yra-803</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-803--yamaha-yra-901</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-804--yamaha-yra-802</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-811--yamaha-yra-804</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-900l--yamaha-yra-900r</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yra-900r--yamaha-yra-64</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrb-302bii--yamaha-yrb-61</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrb-61--yamaha-yrb-61sp</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrn-302bii--yamaha-yrn-801</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrn-801--yamaha-yrn-814</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-20gb--yamaha-yrs-20gg</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-20gg--yamaha-yrs-20gp</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-20gp--yamaha-yrs-27iii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-27iii--yamaha-yrs-28biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-27iii--yamaha-yrs-37iii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-28biii--yamaha-yrs-37iii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-28biii--yamaha-yrs-38biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-301iii--yamaha-yrs-302biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-302biii--yamaha-yrs-401</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-321--yamaha-yrs-322b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-322b--yamaha-yrs-324b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-324b--yamaha-yrs-900l</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-37iii--yamaha-yrs-301iii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-37iii--yamaha-yrs-38biii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-38biii--yamaha-yrs-301iii</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-401--yamaha-yrs-402b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-402b--yamaha-yrs-321</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-61--yamaha-yrs-62</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-62--yamaha-yrs-64</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-64--yamaha-yrs-82</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-82--yamaha-yrs-83</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-900l--yamaha-yrs-900r</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrs-900r--yamaha-yrs-61</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrsa-302biii--yamaha-yrsa-402b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrsa-322b--yamaha-yrsa-324b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrsa-402b--yamaha-yrsa-322b</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/compare/yamaha-yrt-304bii--yamaha-yrt-61m</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-350c--yamaha-ysl-630</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-354--yamaha-ysl-455g</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/compare/yamaha-ysl-455g--yamaha-ysl-350c</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -567,11 +616,13 @@
   <url><loc>https://kangakki-zukan.com/instruments/bassoon</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/clarinet</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/cornet</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/instruments/digital_sax</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/euphonium</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/flugelhorn</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/flute</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/horn</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/oboe</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/instruments/recorder</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/saxophone</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/trombone</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/instruments/trumpet</loc><priority>0.8</priority><lastmod>2026-09-10</lastmod></url>
@@ -1128,6 +1179,7 @@
   <url><loc>https://kangakki-zukan.com/models/yamaha-ycr-8620</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ycr-8620s</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ycr-9435</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yds-150</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-yeb-321s</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-yeb-632</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-yeb-632s</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
@@ -1277,6 +1329,58 @@
   <url><loc>https://kangakki-zukan.com/models/yamaha-ypc-87</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ypc-91</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ypc-92</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-28biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-302biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-322b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-324b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-38biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-402b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-48b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-61</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-64</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-801</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-802</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-803</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-804</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-811</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-900l</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-900r</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yra-901</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrb-302bii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrb-61</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrb-61sp</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrf-21</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrgb-61</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrn-302bii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrn-801</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrn-814</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-20gb</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-20gg</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-20gp</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-27iii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-28biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-301iii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-302biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-321</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-322b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-324b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-37iii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-38biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-401</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-402b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-61</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-62</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-64</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-82</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-83</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-900l</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrs-900r</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrsa-302biii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrsa-322b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrsa-324b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrsa-402b</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrt-304bii</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/models/yamaha-yrt-61m</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ysl-350c</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ysl-354</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yamaha-ysl-354v</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
@@ -1465,8 +1569,8 @@
   <url><loc>https://kangakki-zukan.com/models/yanagisawa-t-wo37gp</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/models/yanagisawa-t-wo37pgp</loc><priority>0.7</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/category/basics</loc><priority>0.6</priority><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/category/lineup</loc><priority>0.6</priority><lastmod>2026-09-15</lastmod></url>
-  <url><loc>https://kangakki-zukan.com/category/pair</loc><priority>0.6</priority><lastmod>2026-09-10</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/category/lineup</loc><priority>0.6</priority><lastmod>2026-09-17</lastmod></url>
+  <url><loc>https://kangakki-zukan.com/category/pair</loc><priority>0.6</priority><lastmod>2026-09-17</lastmod></url>
   <url><loc>https://kangakki-zukan.com/contact</loc><priority>0.4</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/about</loc><priority>0.3</priority><lastmod>2026-09-10</lastmod></url>
   <url><loc>https://kangakki-zukan.com/disclaimer</loc><priority>0.3</priority><lastmod>2026-09-10</lastmod></url>
